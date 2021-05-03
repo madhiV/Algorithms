@@ -1,5 +1,5 @@
 //optimal binary search tree
-//Time complexity O(n^2)
+//Time complexity O(n^4)
 #include <stdio.h>
 void printTable(int n,float table[n][n]){
     for(int i=0;i<n;i++){
