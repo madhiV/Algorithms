@@ -12,7 +12,9 @@ public class TSP {
                 graph[i][j]=scanner.nextInt();
             }
         }
-        StringBuilder ans=new StringBuilder("0");
+        scanner.nextLine();
+        System.out.println("Enter the vertex to start from : ");
+        StringBuilder ans=new StringBuilder(scanner.nextLine());
         TSP(graph,ans);
     }
     static int find1Min(int[][] graph,int x,int y){//x->starting vertex y->vertex to be excluded
